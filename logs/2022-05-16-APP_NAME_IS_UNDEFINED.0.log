@@ -155,3 +155,168 @@
 [2022-05-16 11:38:14.014][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2022-05-16 11:38:14.014][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
 [2022-05-16 11:38:14.014][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 1 ms
+[2022-05-16 11:54:43.043][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-16 11:54:43.043][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-05-16 11:54:43.043][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-05-16 11:54:51.051][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 39038 (/home/truong/Documents/social-network/social-network-backend/target/classes started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-16 11:54:51.051][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-16 11:54:51.051][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-05-16 11:54:51.051][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-05-16 11:54:51.051][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-05-16 11:54:52.052][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-16 11:54:52.052][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+[2022-05-16 11:54:53.053][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-05-16 11:54:53.053][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-05-16 11:54:53.053][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-05-16 11:54:53.053][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-05-16 11:54:53.053][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-05-16 11:54:53.053][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 1551 ms
+[2022-05-16 11:54:53.053][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-05-16 11:54:53.053][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-05-16 11:54:53.053][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-05-16 11:54:53.053][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-05-16 11:54:53.053][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-16 11:54:53.053][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-16 11:54:53.053][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-16 11:54:54.054][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-05-16 11:54:54.054][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-16 11:54:54.054][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-16 11:54:54.054][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-16 11:54:54.054][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-16 11:54:54.054][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-16 11:54:54.054][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-16 11:54:54.054][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-16 11:54:55.055][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-16 11:54:55.055][WARN ][org.springframework.context.support.AbstractApplicationContext][restartedMain][591]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+[2022-05-16 11:54:55.055][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-16 11:54:55.055][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][350]HikariPool-1 - Shutdown initiated...
+[2022-05-16 11:54:55.055][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][352]HikariPool-1 - Shutdown completed.
+[2022-05-16 11:54:55.055][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Stopping service [Tomcat]
+[2022-05-16 11:54:55.055][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][restartedMain][136]
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-05-16 11:54:55.055][ERROR][org.springframework.boot.SpringApplication][restartedMain][830]Application run failed
+org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.beforeSingletonCreation(DefaultSingletonBeanRegistry.java:355)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:227)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:362)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:334)
+	at com.socical.network.configs.SecurityConfig$$EnhancerBySpringCGLIB$$12192e48.bCryptPasswordEncoder(<generated>)
+	at com.socical.network.configs.SecurityConfig.configureGlobal(SecurityConfig.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:724)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.socical.network.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-05-16 11:55:46.046][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 39320 (/home/truong/Documents/social-network/social-network-backend/target/classes started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-16 11:55:46.046][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-16 11:55:46.046][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-05-16 11:55:46.046][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-05-16 11:55:46.046][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-05-16 11:55:47.047][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-16 11:55:47.047][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+[2022-05-16 11:55:47.047][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-05-16 11:55:47.047][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-05-16 11:55:47.047][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-05-16 11:55:47.047][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-05-16 11:55:47.047][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-05-16 11:55:47.047][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 1270 ms
+[2022-05-16 11:55:47.047][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-05-16 11:55:47.047][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-05-16 11:55:47.047][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-05-16 11:55:47.047][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-05-16 11:55:48.048][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-16 11:55:48.048][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-16 11:55:48.048][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-16 11:55:48.048][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-05-16 11:55:48.048][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-16 11:55:48.048][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-16 11:55:48.048][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-16 11:55:48.048][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-16 11:55:48.048][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-16 11:55:48.048][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-16 11:55:48.048][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-16 11:55:49.049][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-16 11:55:49.049][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-05-16 11:55:49.049][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-05-16 11:55:49.049][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-05-16 11:55:49.049][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-05-16 11:55:49.049][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.98 seconds (JVM running for 4.719)
+[2022-05-16 11:56:18.018][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-05-16 11:56:18.018][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][525]Initializing Servlet 'dispatcherServlet'
+[2022-05-16 11:56:18.018][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][547]Completed initialization in 2 ms
+[2022-05-16 11:57:16.016][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-16 11:57:16.016][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-05-16 11:57:16.016][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-05-16 11:57:22.022][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 39850 (/home/truong/Documents/social-network/social-network-backend/target/classes started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-16 11:57:22.022][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-16 11:57:22.022][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-05-16 11:57:22.022][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-05-16 11:57:22.022][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-05-16 11:57:23.023][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-16 11:57:23.023][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+[2022-05-16 11:57:24.024][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-05-16 11:57:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-05-16 11:57:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-05-16 11:57:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-05-16 11:57:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-05-16 11:57:24.024][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 2191 ms
+[2022-05-16 11:57:24.024][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-05-16 11:57:24.024][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-05-16 11:57:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-16 11:57:24.024][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-16 11:57:25.025][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-16 11:57:25.025][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-16 11:57:25.025][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-16 11:57:25.025][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-16 11:57:25.025][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-16 11:57:25.025][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-16 11:57:26.026][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-05-16 11:57:26.026][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-05-16 11:57:26.026][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-05-16 11:57:26.026][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-05-16 11:57:26.026][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 4.964 seconds (JVM running for 5.912)
+[2022-05-16 11:57:41.041][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-05-16 11:57:41.041][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-05-16 11:57:41.041][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 2 ms
