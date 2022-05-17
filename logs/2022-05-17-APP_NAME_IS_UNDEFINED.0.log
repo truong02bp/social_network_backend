@@ -1582,3 +1582,87 @@ Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Data
 [2022-05-17 15:19:37.037][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
 [2022-05-17 15:19:37.037][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
 [2022-05-17 15:19:37.037][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-05-17 15:23:22.022][INFO ][org.springframework.boot.StartupInfoLogger][main][55]Starting SpringBootJava17TemplateApplicationTests using Java 17.0.1 on truong-Latitude-7480 with PID 71326 (started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-17 15:23:22.022][INFO ][org.springframework.boot.SpringApplication][main][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-17 15:23:24.024][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-17 15:23:24.024][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][201]Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+[2022-05-17 15:23:25.025][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2022-05-17 15:23:25.025][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Set default schema name to public
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Clearing database change log checksums
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully acquired change log lock
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully released change log lock
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully acquired change log lock
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Reading from public.databasechangelog
+[2022-05-17 15:23:26.026][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully released change log lock
+[2022-05-17 15:23:26.026][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-17 15:23:26.026][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-17 15:23:27.027][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][main][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-17 15:23:27.027][INFO ][org.hibernate.dialect.Dialect][main][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-17 15:23:28.028][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-17 15:23:28.028][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:23:28.028][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-17 15:23:31.031][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][main][52]Will not secure any request
+[2022-05-17 15:23:31.031][INFO ][org.springframework.boot.StartupInfoLogger][main][61]Started SpringBootJava17TemplateApplicationTests in 9.749 seconds (JVM running for 11.671)
+[2022-05-17 15:23:31.031][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:23:31.031][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-05-17 15:23:31.031][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-05-17 15:25:54.054][INFO ][org.springframework.boot.StartupInfoLogger][main][55]Starting SpringBootJava17TemplateApplicationTests using Java 17.0.1 on truong-Latitude-7480 with PID 72104 (started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-17 15:25:54.054][INFO ][org.springframework.boot.SpringApplication][main][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-17 15:25:55.055][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-17 15:25:55.055][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][201]Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+[2022-05-17 15:25:56.056][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2022-05-17 15:25:56.056][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2022-05-17 15:25:56.056][INFO ][liquibase.logging.core.JavaLogger][main][26]Set default schema name to public
+[2022-05-17 15:25:56.056][INFO ][liquibase.logging.core.JavaLogger][main][26]Clearing database change log checksums
+[2022-05-17 15:25:57.057][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully acquired change log lock
+[2022-05-17 15:25:57.057][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully released change log lock
+[2022-05-17 15:25:57.057][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully acquired change log lock
+[2022-05-17 15:25:57.057][INFO ][liquibase.logging.core.JavaLogger][main][26]Reading from public.databasechangelog
+[2022-05-17 15:25:57.057][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully released change log lock
+[2022-05-17 15:25:57.057][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-17 15:25:57.057][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-17 15:25:57.057][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][main][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-17 15:25:57.057][INFO ][org.hibernate.dialect.Dialect][main][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-17 15:25:58.058][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-17 15:25:58.058][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:25:59.059][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-17 15:26:01.001][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][main][52]Will not secure any request
+[2022-05-17 15:26:01.001][INFO ][org.springframework.boot.StartupInfoLogger][main][61]Started SpringBootJava17TemplateApplicationTests in 8.032 seconds (JVM running for 9.805)
+[2022-05-17 15:26:01.001][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:26:01.001][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-05-17 15:26:01.001][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-05-17 15:26:17.017][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 72303 (/home/truong/Documents/social-network/social-network-backend/target/classes started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-17 15:26:17.017][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-17 15:26:17.017][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-05-17 15:26:17.017][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-05-17 15:26:17.017][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-05-17 15:26:18.018][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-17 15:26:18.018][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+[2022-05-17 15:26:18.018][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-05-17 15:26:18.018][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-05-17 15:26:18.018][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-05-17 15:26:18.018][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-05-17 15:26:18.018][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-05-17 15:26:18.018][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 1292 ms
+[2022-05-17 15:26:19.019][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-05-17 15:26:19.019][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-05-17 15:26:19.019][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-05-17 15:26:20.020][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-17 15:26:20.020][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-17 15:26:20.020][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-17 15:26:20.020][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-17 15:26:20.020][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-17 15:26:20.020][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:26:20.020][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-17 15:26:21.021][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-05-17 15:26:21.021][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-05-17 15:26:21.021][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-05-17 15:26:21.021][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-05-17 15:26:21.021][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 4.589 seconds (JVM running for 5.255)
