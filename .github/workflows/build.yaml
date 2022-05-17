@@ -23,7 +23,7 @@ jobs:
         id: buildx
 
       - name: Build jar
-        run: mvn clean install
+        run: ${{ secrets.BUILD_COMMAND }}
         id: build_jar
 
       - name: Cache docker image layer
