@@ -1557,3 +1557,28 @@ Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Data
 [2022-05-17 15:17:01.001][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
 [2022-05-17 15:17:01.001][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
 [2022-05-17 15:17:01.001][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-05-17 15:19:24.024][INFO ][org.springframework.boot.StartupInfoLogger][main][55]Starting SpringBootJava17TemplateApplicationTests using Java 17.0.1 on truong-Latitude-7480 with PID 70172 (started by truong in /home/truong/Documents/social-network/social-network-backend)
+[2022-05-17 15:19:24.024][INFO ][org.springframework.boot.SpringApplication][main][640]No active profile set, falling back to 1 default profile: "default"
+[2022-05-17 15:19:25.025][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-05-17 15:19:25.025][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][201]Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interfaces.
+[2022-05-17 15:19:27.027][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2022-05-17 15:19:27.027][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2022-05-17 15:19:28.028][INFO ][liquibase.logging.core.JavaLogger][main][26]Set default schema name to public
+[2022-05-17 15:19:28.028][INFO ][liquibase.logging.core.JavaLogger][main][26]Clearing database change log checksums
+[2022-05-17 15:19:28.028][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully acquired change log lock
+[2022-05-17 15:19:28.028][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully released change log lock
+[2022-05-17 15:19:29.029][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully acquired change log lock
+[2022-05-17 15:19:29.029][INFO ][liquibase.logging.core.JavaLogger][main][26]Reading from public.databasechangelog
+[2022-05-17 15:19:29.029][INFO ][liquibase.logging.core.JavaLogger][main][26]Successfully released change log lock
+[2022-05-17 15:19:30.030][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-05-17 15:19:30.030][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-05-17 15:19:30.030][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][main][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-17 15:19:31.031][INFO ][org.hibernate.dialect.Dialect][main][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-05-17 15:19:33.033][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-17 15:19:33.033][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:19:34.034][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-05-17 15:19:36.036][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][main][52]Will not secure any request
+[2022-05-17 15:19:36.036][INFO ][org.springframework.boot.StartupInfoLogger][main][61]Started SpringBootJava17TemplateApplicationTests in 12.714 seconds (JVM running for 13.84)
+[2022-05-17 15:19:37.037][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-05-17 15:19:37.037][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-05-17 15:19:37.037][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
