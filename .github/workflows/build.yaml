@@ -51,7 +51,8 @@ jobs:
           username: ${{ secrets.IP_USER }}
           password: ${{ secrets.IP_PASS }}
           port: 22
-          script: ${{ secrets.DEPLOY_COMMAND }}
+          script: |
+          ${{ secrets.DEPLOY_COMMAND }}
       - name: Verify
         run: echo ${{ steps.docker_build.outputs.digest }}
 
