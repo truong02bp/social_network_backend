@@ -23,7 +23,7 @@ jobs:
         id: buildx
 
       - name: Build jar
-        run: ${{ secrets.BUILD_COMMAND }}
+        run: ${{secrets.BUILD_COMMAND}}
         id: build_jar
 
       - name: Cache docker image layer
@@ -41,7 +41,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{secrets.DOCKERHUB_USERNAME}}/${{ steps.build_jar.outputs.name }}
+          tags: ${{secrets.DOCKERHUB_USERNAME}}/social-network-backend
           cache-form: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 

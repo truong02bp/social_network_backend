@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.template</groupId>
+    <groupId>com.cocical.network</groupId>
     <artifactId>social-network-backend</artifactId>
     <version>0.0.1</version>
     <name>social-network-backend</name>
