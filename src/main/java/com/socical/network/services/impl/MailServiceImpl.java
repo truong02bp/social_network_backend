@@ -19,7 +19,7 @@ public class MailServiceImpl implements MailService {
         SimpleMailMessage message = new SimpleMailMessage();
         Random random = new Random();
         String otp = String.valueOf(random.nextInt(8999) + 1000);
-        message.setFrom("Social Network Admin");
+        message.setFrom("Social_Network_Admin");
         message.setTo(mail);
         message.setSubject("Hi " + name + ", you have message from Social Network Admin");
         String content = "Hi " + name + "\n" + "Your verification code is : " + otp;
