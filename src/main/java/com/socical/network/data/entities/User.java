@@ -1,5 +1,6 @@
 package com.socical.network.data.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
@@ -32,9 +33,10 @@ public class User extends BaseEntity {
     @Schema(hidden = true)
     private boolean active = true;
 
-    @Column(name = "avatar_url")
+    @ManyToOne
+    @JoinColumn(name = "media_id")
     @Schema(hidden = true)
-    private String avatarUrl;
+    private Media avatar;
 
     private String address;
 

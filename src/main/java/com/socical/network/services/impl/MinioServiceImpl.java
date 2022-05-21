@@ -67,7 +67,7 @@ public class MinioServiceImpl implements MinioService {
                 minioClient.uploadObject(builder.build());
             } catch (IOException | ErrorResponseException | InsufficientDataException | InternalException | InvalidKeyException |
                      InvalidResponseException | NoSuchAlgorithmException | ServerException | XmlParserException e) {
-                throw BusinessException.builder().status(HttpStatus.INTERNAL_SERVER_ERROR).message("Minio error").build();
+                throw BusinessException.builder().status(HttpStatus.INTERNAL_SERVER_ERROR).message(e.getLocalizedMessage()).build();
             }
         }
 
