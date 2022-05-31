@@ -28,13 +28,17 @@ public class User extends BaseEntity {
     @Schema(hidden = true)
     private LocalDateTime lastOnline;
 
-    @Column(name = "online")
+    @Column(name = "is_online")
     @Schema(hidden = true)
-    private boolean online = false;
+    private boolean isOnline = false;
 
-    @Column(name = "active")
+    @Column(name = "is_active")
     @Schema(hidden = true)
-    private boolean active = true;
+    private boolean isActive = true;
+
+    @Column(name = "is_private")
+    @Schema(hidden = true)
+    private boolean isPrivate = false;
 
     @ManyToOne
     @JoinColumn(name = "media_id")
@@ -47,5 +51,6 @@ public class User extends BaseEntity {
 
     @ManyToMany
     @JoinTable(name = "role_user", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
+    @Schema(hidden = true)
     private List<Role> roles;
 }
