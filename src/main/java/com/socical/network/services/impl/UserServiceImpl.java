@@ -58,13 +58,18 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User findById(Long id) {
+        return userRepository.findById(id).orElseThrow(() -> {
+            throw BusinessException.builder().message("User not found with id {" + id + "}").status(HttpStatus.NOT_FOUND).build();
+        });
+    }
+
+    @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
 
-        User user = userRepository.findByEmail(email).orElseThrow(
-            () -> {
-                throw new UsernameNotFoundException("Not found email : " + email);
-            }
-        );
+        User user = userRepository.findByEmail(email).orElseThrow(() -> {
+            throw new UsernameNotFoundException("Not found email : " + email);
+        });
         List<GrantedAuthority> authorities = new ArrayList<>();
         user.getRoles().forEach(role -> authorities.add(new SimpleGrantedAuthority("ROLE_" + role.getCode())));
         return new MyUserDetails(user.getEmail(), user.getPassword(), true, true, true, true, authorities, user);
