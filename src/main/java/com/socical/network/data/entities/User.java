@@ -1,6 +1,7 @@
 package com.socical.network.data.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
@@ -29,14 +30,17 @@ public class User extends BaseEntity {
     private LocalDateTime lastOnline;
 
     @Column(name = "is_online")
+    @JsonProperty("isOnline")
     @Schema(hidden = true)
     private boolean isOnline = false;
 
     @Column(name = "is_active")
+    @JsonProperty("isActive")
     @Schema(hidden = true)
     private boolean isActive = true;
 
     @Column(name = "is_private")
+    @JsonProperty("isPrivate")
     @Schema(hidden = true)
     private boolean isPrivate = false;
 
