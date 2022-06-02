@@ -10,12 +10,12 @@ import javax.persistence.MappedSuperclass;
 @Setter
 @MappedSuperclass
 public class BaseMediaEntity extends BaseEntity {
-    @Column(name = "name", unique = true, nullable = false)
+    @Column(name = "name", nullable = false)
     private String name;
 
     @Column(name = "content_type", nullable = false)
     private String contentType;
 
-    @Column(name = "url", unique = true, nullable = false)
+    @Column(name = "url", nullable = false)
     private String url;
 }

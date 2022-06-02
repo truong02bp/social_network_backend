@@ -51,6 +51,7 @@ public class User extends BaseEntity {
 
     private String address;
 
+    @Column(name = "phone", unique = true)
     private String phone;
 
     @ManyToMany
