@@ -54,4 +54,9 @@ public class PostServiceImpl implements PostService {
     public List<Post> findAllByUserId(Long userId) {
         return postRepository.findByUserId(userId);
     }
+
+    @Override
+    public List<Post> findTagPostByUserId(Long userId) {
+        return postRepository.findTagPostByUserId(userId);
+    }
 }

@@ -1,5 +1,6 @@
 package com.socical.network.data.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
@@ -24,10 +25,12 @@ public class BaseEntity {
 
     @CreatedBy
     @Schema(hidden = true)
+    @JsonIgnore
     private String createdBy;
 
     @LastModifiedBy
     @Schema(hidden = true)
+    @JsonIgnore
     private String lastModifiedBy;
 
     @CreatedDate

@@ -9,4 +9,5 @@ public interface PostService {
 
     Post create(PostDto postDto);
     List<Post> findAllByUserId(Long userId);
+    List<Post> findTagPostByUserId(Long userId);
 }

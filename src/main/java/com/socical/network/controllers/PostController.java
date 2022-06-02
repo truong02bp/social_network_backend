@@ -16,9 +16,15 @@ public class PostController {
 
     private final PostService postService;
 
-    @GetMapping("/user")
+    @GetMapping()
     public ResponseEntity<List<Post>> getByUserId(@RequestParam("userId") Long userId) {
         List<Post> posts = postService.findAllByUserId(userId);
+        return ResponseEntity.ok(posts);
+    }
+
+    @GetMapping("/tag")
+    public ResponseEntity<List<Post>> getTagPostByUserId(@RequestParam("userId") Long userId) {
+        List<Post> posts = postService.findTagPostByUserId(userId);
         return ResponseEntity.ok(posts);
     }
 
