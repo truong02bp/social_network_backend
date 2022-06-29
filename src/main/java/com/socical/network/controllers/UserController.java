@@ -1,6 +1,8 @@
 package com.socical.network.controllers;
 
+import com.socical.network.data.dto.MediaDto;
 import com.socical.network.data.dto.MyUserDetails;
+import com.socical.network.data.dto.ProfileDto;
 import com.socical.network.data.entities.User;
 import com.socical.network.services.UserService;
 import lombok.RequiredArgsConstructor;
@@ -19,6 +21,16 @@ public class UserController {
     public ResponseEntity<User> getCurrentUser() {
         MyUserDetails  myUserDetails = (MyUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         return ResponseEntity.ok(myUserDetails.getUser());
+    }
+
+    @GetMapping("/user/profile")
+    public ResponseEntity<ProfileDto> getProfileInformation(@RequestParam("userId") Long userId) {
+        return ResponseEntity.ok(userService.getProfileInformation(userId));
+    }
+
+    @PutMapping("/user/update-avatar")
+    public ResponseEntity<User> updateAvatar(@RequestBody MediaDto mediaDto) {
+        return ResponseEntity.ok(userService.updateAvatar(mediaDto));
     }
 
     @PostMapping("/user")

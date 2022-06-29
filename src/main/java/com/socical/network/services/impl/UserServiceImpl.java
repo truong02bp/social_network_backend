@@ -1,14 +1,15 @@
 package com.socical.network.services.impl;
 
+import com.socical.network.data.dto.MediaDto;
 import com.socical.network.data.dto.MyUserDetails;
+import com.socical.network.data.dto.ProfileDto;
 import com.socical.network.data.entities.Media;
 import com.socical.network.data.entities.Role;
 import com.socical.network.data.entities.User;
-import com.socical.network.data.repositories.MediaRepository;
-import com.socical.network.data.repositories.RoleRepository;
-import com.socical.network.data.repositories.UserRepository;
+import com.socical.network.data.repositories.*;
 import com.socical.network.exceptions.BusinessException;
 import com.socical.network.exceptions.EmailInvalidException;
+import com.socical.network.services.MediaService;
 import com.socical.network.services.UserService;
 import com.socical.network.common.utils.Validator;
 import lombok.RequiredArgsConstructor;
@@ -32,8 +33,10 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
-    private final MediaRepository mediaRepository;
+    private final MediaService mediaService;
     private final RoleRepository roleRepository;
+    private final PostRepository postRepository;
+    private final FollowRelationRepository followRelationRepository;
 
     @Override
     public User create(User user) {
@@ -43,7 +46,7 @@ public class UserServiceImpl implements UserService {
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
 
         final String ANONYMOUS_IMAGE_NAME = "anonymous.png";
-        Media anonymousImage = mediaRepository.findByName(ANONYMOUS_IMAGE_NAME).orElseThrow(() -> {
+        Media anonymousImage = mediaService.findByName(ANONYMOUS_IMAGE_NAME).orElseThrow(() -> {
             throw BusinessException.builder().status(HttpStatus.INTERNAL_SERVER_ERROR).message("Can't set default avatar").build();
         });
         user.setAvatar(anonymousImage);
@@ -62,6 +65,22 @@ public class UserServiceImpl implements UserService {
         return userRepository.findById(id).orElseThrow(() -> {
             throw BusinessException.builder().message("User not found with id {" + id + "}").status(HttpStatus.NOT_FOUND).build();
         });
+    }
+
+    @Override
+    public ProfileDto getProfileInformation(Long userId) {
+        int posts = postRepository.countByUserId(userId);
+        int followers = followRelationRepository.countFollowersByUserId(userId);
+        int following = followRelationRepository.countFollowingByUserId(userId);
+        return new ProfileDto(posts, followers, following);
+    }
+
+    @Override
+    public User updateAvatar(MediaDto mediaDto) {
+        Media media = mediaService.create(mediaDto);
+        User user = findById(mediaDto.getUserId());
+        user.setAvatar(media);
+        return userRepository.save(user);
     }
 
     @Override

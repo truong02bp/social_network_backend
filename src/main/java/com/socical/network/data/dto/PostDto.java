@@ -1,5 +1,6 @@
 package com.socical.network.data.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 

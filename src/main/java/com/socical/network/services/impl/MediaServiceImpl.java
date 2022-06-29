@@ -16,6 +16,7 @@ import javax.transaction.Transactional;
 import java.io.ByteArrayInputStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -36,7 +37,13 @@ public class MediaServiceImpl implements MediaService {
         Media media = mapper.convertValue(mediaDto, Media.class);
         String folder = "/" + time + "/";
         minioService.upload(folder, mediaDto.getName(), new ByteArrayInputStream(mediaDto.getBytes()));
+        media.setContentType(mediaDto.getName().substring(mediaDto.getName().lastIndexOf(".")+1));
         media.setUrl(folder + media.getName());
         return mediaRepository.save(media);
+    }
+
+    @Override
+    public Optional<Media> findByName(String name) {
+        return mediaRepository.findByName(name);
     }
 }

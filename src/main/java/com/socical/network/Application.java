@@ -16,7 +16,7 @@ import java.util.TimeZone;
 public class Application {
 
     @Value(value = "${app.timezone}")
-    String appTimeZone;
+    private String appTimeZone;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

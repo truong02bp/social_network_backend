@@ -11,6 +11,7 @@ import com.socical.network.exceptions.BusinessException;
 import com.socical.network.services.PostMediaService;
 import com.socical.network.services.PostService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -51,8 +52,8 @@ public class PostServiceImpl implements PostService {
     }
 
     @Override
-    public List<Post> findAllByUserId(Long userId) {
-        return postRepository.findByUserId(userId);
+    public List<Post> findAllByUserId(Long userId, Pageable pageable) {
+        return postRepository.findByUserId(userId, pageable);
     }
 
     @Override
