@@ -3,6 +3,7 @@ package com.socical.network.controllers;
 import com.socical.network.data.dto.MediaDto;
 import com.socical.network.data.dto.MyUserDetails;
 import com.socical.network.data.dto.ProfileDto;
+import com.socical.network.data.dto.UserDto;
 import com.socical.network.data.entities.User;
 import com.socical.network.services.UserService;
 import lombok.RequiredArgsConstructor;
@@ -28,7 +29,7 @@ public class UserController {
         return ResponseEntity.ok(userService.getProfileInformation(userId));
     }
 
-    @PutMapping("/user/update-avatar")
+    @PutMapping("/user/avatar")
     public ResponseEntity<User> updateAvatar(@RequestBody MediaDto mediaDto) {
         return ResponseEntity.ok(userService.updateAvatar(mediaDto));
     }
@@ -38,4 +39,14 @@ public class UserController {
         return ResponseEntity.ok(userService.create(user));
     }
 
+    @PutMapping("/user")
+    public ResponseEntity<String> update(@RequestBody User user) {
+        userService.update(user);
+        return ResponseEntity.ok("Update success");
+    }
+
+    @PutMapping("/user/password")
+    public ResponseEntity<User> updatePassword(@RequestBody UserDto userDto) {
+        return ResponseEntity.ok(userService.updatePassword(userDto));
+    }
 }

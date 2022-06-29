@@ -3,6 +3,7 @@ package com.socical.network.services.impl;
 import com.socical.network.data.dto.MediaDto;
 import com.socical.network.data.dto.MyUserDetails;
 import com.socical.network.data.dto.ProfileDto;
+import com.socical.network.data.dto.UserDto;
 import com.socical.network.data.entities.Media;
 import com.socical.network.data.entities.Role;
 import com.socical.network.data.entities.User;
@@ -56,7 +57,26 @@ public class UserServiceImpl implements UserService {
             throw BusinessException.builder().status(HttpStatus.INTERNAL_SERVER_ERROR).message("Can't set default role").build();
         });
         user.setRoles(List.of(roleDefault));
+        user.setUsername(user.getName());
+        return userRepository.save(user);
+    }
 
+    @Override
+    public int update(User user) {
+        int rowUpdated = userRepository.update(user.getName(), user.getUsername(), user.getAddress(), user.getPhone(), user.getId());
+        if (rowUpdated != 1) {
+            throw BusinessException.builder().status(HttpStatus.INTERNAL_SERVER_ERROR).message("Update user failed").build();
+        }
+        return rowUpdated;
+    }
+
+    @Override
+    public User updatePassword(UserDto userDto) {
+        User user = findById(userDto.getId());
+        if (!bCryptPasswordEncoder.matches(userDto.getOldPassword(), user.getPassword())) {
+            throw BusinessException.builder().status(HttpStatus.INTERNAL_SERVER_ERROR).message("Old password don't match").build();
+        }
+        user.setPassword(bCryptPasswordEncoder.encode(userDto.getNewPassword()));
         return userRepository.save(user);
     }
 

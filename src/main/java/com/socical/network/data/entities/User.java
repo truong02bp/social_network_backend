@@ -25,6 +25,9 @@ public class User extends BaseEntity {
     @Column(name = "name")
     private String name;
 
+    @Column(name = "username")
+    private String username;
+
     @Column(name = "last_online", columnDefinition = "timestamp with time zone")
     @Schema(hidden = true)
     private LocalDateTime lastOnline;
