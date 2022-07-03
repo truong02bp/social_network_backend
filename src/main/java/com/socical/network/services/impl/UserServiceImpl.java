@@ -62,6 +62,18 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User getById(Long id) {
+        return userRepository.findById(id).orElseThrow(() -> {
+            throw BusinessException.builder().status(HttpStatus.NOT_FOUND).message("Can't find user with id " + id).build();
+        });
+    }
+
+    @Override
+    public List<User> getByIds(List<Long> ids) {
+        return userRepository.findAllById(ids);
+    }
+
+    @Override
     public int update(User user) {
         int rowUpdated = userRepository.update(user.getName(), user.getUsername(), user.getAddress(), user.getPhone(), user.getId());
         if (rowUpdated != 1) {

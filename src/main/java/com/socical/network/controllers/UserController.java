@@ -11,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/v1")
 @RequiredArgsConstructor
@@ -20,8 +22,24 @@ public class UserController {
 
     @GetMapping("/user")
     public ResponseEntity<User> getCurrentUser() {
-        MyUserDetails  myUserDetails = (MyUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        MyUserDetails myUserDetails = (MyUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         return ResponseEntity.ok(myUserDetails.getUser());
+    }
+
+    @GetMapping("/user/{id}")
+    public ResponseEntity<User> getById(@PathVariable Long id) {
+        return ResponseEntity.ok(userService.getById(id));
+    }
+
+    @GetMapping("/user/ids")
+    public ResponseEntity<List<User>> getById(@RequestParam("ids") List<Long> ids) {
+        return ResponseEntity.ok(userService.getByIds(ids));
+    }
+
+    @GetMapping("/user/details")
+    public ResponseEntity<MyUserDetails> getCurrentUserDetails() {
+        MyUserDetails myUserDetails = (MyUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        return ResponseEntity.ok(myUserDetails);
     }
 
     @GetMapping("/user/profile")
@@ -29,14 +47,14 @@ public class UserController {
         return ResponseEntity.ok(userService.getProfileInformation(userId));
     }
 
-    @PutMapping("/user/avatar")
-    public ResponseEntity<User> updateAvatar(@RequestBody MediaDto mediaDto) {
-        return ResponseEntity.ok(userService.updateAvatar(mediaDto));
-    }
-
     @PostMapping("/user")
     public ResponseEntity<User> create(@RequestBody User user) {
         return ResponseEntity.ok(userService.create(user));
+    }
+
+    @PutMapping("/user/avatar")
+    public ResponseEntity<User> updateAvatar(@RequestBody MediaDto mediaDto) {
+        return ResponseEntity.ok(userService.updateAvatar(mediaDto));
     }
 
     @PutMapping("/user")

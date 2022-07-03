@@ -15,6 +15,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional
 @RequiredArgsConstructor
@@ -23,6 +25,16 @@ public class FollowRequestServiceImpl implements FollowRequestService {
     private final FollowRequestRepository followRequestRepository;
     private final FollowRelationRepository followRelationRepository;
     private final UserService userService;
+
+    @Override
+    public List<FollowRequest> getByUserId(Long userId) {
+        return followRequestRepository.findByUserId(userId);
+    }
+
+    @Override
+    public int countByUserId(Long userId) {
+        return followRequestRepository.countByUserId(userId);
+    }
 
     @Override
     public FollowRequest create(Long receiverId) {

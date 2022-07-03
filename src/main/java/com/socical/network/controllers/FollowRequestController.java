@@ -6,12 +6,24 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/v1/follow-request")
 @RequiredArgsConstructor
 public class FollowRequestController {
 
     private final FollowRequestService followRequestService;
+
+    @GetMapping
+    public ResponseEntity<List<FollowRequest>> getByUserId(@RequestParam("userId") Long userId){
+        return ResponseEntity.ok(followRequestService.getByUserId(userId));
+    }
+
+    @GetMapping("/count")
+    public ResponseEntity<Integer> countByUserId(@RequestParam("userId") Long userId){
+        return ResponseEntity.ok(followRequestService.countByUserId(userId));
+    }
 
     @PostMapping
     public ResponseEntity<FollowRequest> create(@RequestParam("userId") Long userId) {
