@@ -32,7 +32,7 @@ public class UserController {
     }
 
     @GetMapping("/user/ids")
-    public ResponseEntity<List<User>> getById(@RequestParam("ids") List<Long> ids) {
+    public ResponseEntity<List<User>> getByIds(@RequestParam("ids") List<Long> ids) {
         return ResponseEntity.ok(userService.getByIds(ids));
     }
 

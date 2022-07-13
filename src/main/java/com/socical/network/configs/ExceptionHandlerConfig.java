@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class ExceptionHandlerConfig {
 
     @ExceptionHandler(BusinessException.class)
-    ResponseEntity<ErrorMessage> apiException(BusinessException e)
-    {
+    ResponseEntity<ErrorMessage> apiException(BusinessException e) {
+        e.printStackTrace();
         return ResponseEntity.ok(ErrorMessage.fromApiException(e));
     }
 
