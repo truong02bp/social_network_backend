@@ -1,0 +1,758 @@
+[2022-07-14 00:43:36.036][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m36s105ms).
+[2022-07-14 02:21:45.045][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h38m9s71ms).
+[2022-07-14 04:00:48.048][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m2s442ms).
+[2022-07-14 04:34:18.018][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m29s786ms).
+[2022-07-14 04:47:46.046][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 12]
+[2022-07-14 05:17:46.046][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 13]
+[2022-07-14 05:47:46.046][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 14]
+[2022-07-14 06:17:46.046][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 15]
+[2022-07-14 06:47:45.045][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 16]
+[2022-07-14 07:17:45.045][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 17]
+[2022-07-14 07:21:48.048][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m58s612ms).
+[2022-07-14 07:56:19.019][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m835ms).
+[2022-07-14 07:57:51.051][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][788]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s361ms).
+[2022-07-14 07:58:26.026][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 07:58:26.026][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2be7f091]]
+[2022-07-14 07:58:26.026][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 07:58:26.026][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 07:58:26.026][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 07:58:26.026][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 08:25:58.058][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 44898 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 08:25:58.058][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 08:25:58.058][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 08:25:58.058][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 08:25:58.058][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 08:25:58.058][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 08:25:58.058][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 29 ms. Found 10 JPA repository interfaces.
+[2022-07-14 08:25:59.059][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 08:25:59.059][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 08:25:59.059][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 08:25:59.059][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 08:25:59.059][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 08:25:59.059][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 705 ms
+[2022-07-14 08:25:59.059][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 08:25:59.059][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 08:25:59.059][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 08:26:00.000][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 08:26:00.000][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 08:26:00.000][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 08:26:00.000][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 08:26:00.000][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 08:26:00.000][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 08:26:01.001][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 08:26:01.001][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 08:26:01.001][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 08:26:01.001][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 08:26:01.001][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 08:26:01.001][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 08:26:01.001][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@a038f59]]
+[2022-07-14 08:26:01.001][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 08:26:01.001][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.192 seconds (JVM running for 3.753)
+[2022-07-14 08:27:01.001][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 08:28:04.004][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 08:28:04.004][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 08:28:04.004][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 4 ms
+[2022-07-14 08:57:01.001][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+[2022-07-14 09:27:01.001][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-2][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+[2022-07-14 09:37:09.009][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 09:37:09.009][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@a038f59]]
+[2022-07-14 09:37:09.009][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 09:37:09.009][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 09:37:09.009][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 09:37:09.009][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 14:04:19.019][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 85248 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 14:04:19.019][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 14:04:19.019][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 14:04:19.019][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 14:04:19.019][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 14:04:20.020][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 14:04:20.020][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 25 ms. Found 10 JPA repository interfaces.
+[2022-07-14 14:04:20.020][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 14:04:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:04:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 14:04:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 14:04:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 14:04:20.020][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 626 ms
+[2022-07-14 14:04:20.020][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 14:04:20.020][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 14:04:20.020][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 14:04:20.020][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 14:04:20.020][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:04:20.020][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:04:20.020][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:04:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 14:04:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:04:21.021][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 14:04:21.021][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 14:04:21.021][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 14:04:21.021][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 14:04:21.021][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 14:04:21.021][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:04:22.022][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 14:04:22.022][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 14:04:22.022][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 14:04:22.022][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:04:22.022][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 14:04:22.022][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 14:04:22.022][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@33e1dd61]]
+[2022-07-14 14:04:22.022][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 14:04:22.022][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.116 seconds (JVM running for 3.696)
+[2022-07-14 14:04:26.026][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 14:04:26.026][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 14:04:26.026][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 3 ms
+[2022-07-14 14:05:22.022][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 14:35:22.022][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+[2022-07-14 14:50:35.035][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 14:50:35.035][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@33e1dd61]]
+[2022-07-14 14:50:35.035][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 14:50:35.035][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:50:35.035][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 14:50:35.035][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 14:50:38.038][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 93684 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 14:50:38.038][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 14:50:38.038][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 14:50:38.038][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 14:50:38.038][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 14:50:39.039][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 14:50:39.039][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 100 ms. Found 10 JPA repository interfaces.
+[2022-07-14 14:50:39.039][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 14:50:39.039][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:50:39.039][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 14:50:39.039][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 14:50:39.039][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 14:50:39.039][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 1061 ms
+[2022-07-14 14:50:40.040][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 14:50:40.040][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 14:50:40.040][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:50:40.040][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 14:50:40.040][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 14:50:40.040][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 14:50:40.040][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 14:50:41.041][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 14:50:41.041][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:50:41.041][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 14:50:42.042][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 14:50:42.042][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 14:50:42.042][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:50:42.042][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 14:50:42.042][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 14:50:42.042][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7720c284]]
+[2022-07-14 14:50:42.042][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 14:50:42.042][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.476 seconds (JVM running for 3.983)
+[2022-07-14 14:50:48.048][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 14:50:48.048][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 14:50:48.048][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 8 ms
+[2022-07-14 14:51:00.000][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 14:51:00.000][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7720c284]]
+[2022-07-14 14:51:00.000][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 14:51:00.000][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:51:00.000][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 14:51:00.000][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 93758 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 14:51:02.002][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 14:51:02.002][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 25 ms. Found 10 JPA repository interfaces.
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 14:51:02.002][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:51:02.002][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 14:51:02.002][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 14:51:02.002][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 14:51:02.002][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 562 ms
+[2022-07-14 14:51:02.002][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 14:51:02.002][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 14:51:03.003][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:51:03.003][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 14:51:03.003][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 14:51:03.003][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 14:51:03.003][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 14:51:03.003][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 14:51:03.003][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:51:04.004][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 14:51:04.004][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 14:51:04.004][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 14:51:04.004][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:51:04.004][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 14:51:04.004][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 14:51:04.004][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@63a63419]]
+[2022-07-14 14:51:04.004][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 14:51:04.004][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 2.707 seconds (JVM running for 2.969)
+[2022-07-14 14:52:04.004][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 14:54:15.015][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 14:54:15.015][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 14:54:15.015][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 13 ms
+[2022-07-14 14:55:19.019][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 14:55:19.019][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@63a63419]]
+[2022-07-14 14:55:19.019][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 14:55:19.019][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:55:19.019][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 14:55:19.019][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 94530 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 14:55:22.022][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 14:55:22.022][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 24 ms. Found 10 JPA repository interfaces.
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 14:55:22.022][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:55:22.022][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 14:55:22.022][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 14:55:22.022][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 14:55:22.022][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 559 ms
+[2022-07-14 14:55:22.022][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 14:55:22.022][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 14:55:22.022][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 14:55:22.022][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 14:55:23.023][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:55:23.023][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:55:23.023][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 14:55:23.023][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 14:55:23.023][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 14:55:23.023][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 14:55:23.023][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 14:55:23.023][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 14:55:23.023][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 14:55:23.023][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 14:55:23.023][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 14:55:24.024][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 14:55:24.024][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 14:55:24.024][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 14:55:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 14:55:24.024][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 14:55:24.024][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 14:55:24.024][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1df71199]]
+[2022-07-14 14:55:24.024][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 14:55:24.024][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 2.715 seconds (JVM running for 3.192)
+[2022-07-14 14:55:31.031][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 14:55:31.031][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 14:55:31.031][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 3 ms
+[2022-07-14 14:56:24.024][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 15:05:29.029][ERROR][org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler][clientInboundChannel-16][597]Unhandled exception from message handler method
+org.springframework.messaging.converter.MessageConversionException: Could not write JSON: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session (through reference chain: com.socical.network.data.entities.Message["sender"]->com.socical.network.data.entities.Messenger["user"]->com.socical.network.data.entities.User["roles"]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session (through reference chain: com.socical.network.data.entities.Message["sender"]->com.socical.network.data.entities.Messenger["user"]->com.socical.network.data.entities.User["roles"])
+	at org.springframework.messaging.converter.MappingJackson2MessageConverter.convertToInternal(MappingJackson2MessageConverter.java:274)
+	at org.springframework.messaging.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:201)
+	at org.springframework.messaging.converter.CompositeMessageConverter.toMessage(CompositeMessageConverter.java:96)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.doConvert(AbstractMessageSendingTemplate.java:181)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:150)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:129)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:122)
+	at com.socical.network.controllers.MessageController.sendMessage(MessageController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:569)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:511)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:94)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:524)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:458)
+	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session (through reference chain: com.socical.network.data.entities.Message["sender"]->com.socical.network.data.entities.Messenger["user"]->com.socical.network.data.entities.User["roles"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:392)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:351)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:316)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:782)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:3160)
+	at org.springframework.messaging.converter.MappingJackson2MessageConverter.convertToInternal(MappingJackson2MessageConverter.java:256)
+	... 22 common frames omitted
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:612)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:162)
+	at org.hibernate.collection.internal.PersistentBag.size(PersistentBag.java:371)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	... 33 common frames omitted
+[2022-07-14 15:07:01.001][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 15:07:01.001][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1df71199]]
+[2022-07-14 15:07:01.001][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 15:07:01.001][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:07:01.001][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 15:07:01.001][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 15:07:04.004][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 96986 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 15:07:04.004][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 15:07:04.004][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 15:07:04.004][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 15:07:04.004][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 15:07:04.004][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 15:07:04.004][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 27 ms. Found 10 JPA repository interfaces.
+[2022-07-14 15:07:05.005][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 15:07:05.005][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:07:05.005][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 15:07:05.005][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 15:07:05.005][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 15:07:05.005][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 619 ms
+[2022-07-14 15:07:05.005][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 15:07:05.005][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 15:07:05.005][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:07:05.005][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 15:07:05.005][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 15:07:05.005][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 15:07:05.005][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 15:07:06.006][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 15:07:06.006][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:07:06.006][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 15:07:07.007][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 15:07:07.007][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 15:07:07.007][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:07:07.007][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 15:07:07.007][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 15:07:07.007][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@53533d3c]]
+[2022-07-14 15:07:07.007][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 15:07:07.007][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 2.957 seconds (JVM running for 3.414)
+[2022-07-14 15:07:11.011][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 15:07:11.011][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 15:07:11.011][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 8 ms
+[2022-07-14 15:07:16.016][ERROR][org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler][clientInboundChannel-7][597]Unhandled exception from message handler method
+org.springframework.messaging.converter.MessageConversionException: Could not write JSON: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session (through reference chain: com.socical.network.data.entities.Message["sender"]->com.socical.network.data.entities.Messenger["user"]->com.socical.network.data.entities.User["roles"]); nested exception is com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session (through reference chain: com.socical.network.data.entities.Message["sender"]->com.socical.network.data.entities.Messenger["user"]->com.socical.network.data.entities.User["roles"])
+	at org.springframework.messaging.converter.MappingJackson2MessageConverter.convertToInternal(MappingJackson2MessageConverter.java:274)
+	at org.springframework.messaging.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:201)
+	at org.springframework.messaging.converter.CompositeMessageConverter.toMessage(CompositeMessageConverter.java:96)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.doConvert(AbstractMessageSendingTemplate.java:181)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:150)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:129)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:122)
+	at com.socical.network.controllers.MessageController.sendMessage(MessageController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:569)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:511)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:94)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:524)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:458)
+	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session (through reference chain: com.socical.network.data.entities.Message["sender"]->com.socical.network.data.entities.Messenger["user"]->com.socical.network.data.entities.User["roles"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:392)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:351)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:316)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:782)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:3160)
+	at org.springframework.messaging.converter.MappingJackson2MessageConverter.convertToInternal(MappingJackson2MessageConverter.java:256)
+	... 22 common frames omitted
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.socical.network.data.entities.User.roles, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:612)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:162)
+	at org.hibernate.collection.internal.PersistentBag.size(PersistentBag.java:371)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	... 33 common frames omitted
+[2022-07-14 15:08:06.006][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 15:09:46.046][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 15:09:46.046][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@53533d3c]]
+[2022-07-14 15:09:46.046][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 15:09:46.046][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:09:46.046][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 15:09:46.046][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 97525 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 15:09:49.049][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 15:09:49.049][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 37 ms. Found 10 JPA repository interfaces.
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 15:09:49.049][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:09:49.049][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 15:09:49.049][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 15:09:49.049][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 15:09:49.049][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 597 ms
+[2022-07-14 15:09:50.050][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 15:09:50.050][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 15:09:50.050][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:09:50.050][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 15:09:50.050][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 15:09:50.050][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 15:09:50.050][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 15:09:51.051][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 15:09:51.051][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:09:51.051][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 15:09:51.051][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 15:09:51.051][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 15:09:51.051][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:09:51.051][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 15:09:51.051][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 15:09:51.051][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3773cae5]]
+[2022-07-14 15:09:51.051][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 15:09:51.051][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 2.8 seconds (JVM running for 3.216)
+[2022-07-14 15:09:56.056][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 15:09:56.056][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 15:09:56.056][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 2 ms
+[2022-07-14 15:10:51.051][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 15:17:27.027][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 15:17:27.027][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3773cae5]]
+[2022-07-14 15:17:27.027][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 15:17:27.027][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:17:27.027][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 15:17:27.027][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 99079 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 99086 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 15:17:31.031][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 15:17:31.031][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 15:17:31.031][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 38 ms. Found 10 JPA repository interfaces.
+[2022-07-14 15:17:31.031][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 15:17:31.031][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 29 ms. Found 10 JPA repository interfaces.
+[2022-07-14 15:17:32.032][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 15:17:32.032][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 1006 ms
+[2022-07-14 15:17:32.032][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 15:17:32.032][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 15:17:32.032][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 896 ms
+[2022-07-14 15:17:32.032][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 15:17:32.032][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 15:17:32.032][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 15:17:32.032][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Waiting for changelog lock....
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:17:32.032][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 15:17:33.033][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:17:33.033][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 15:17:33.033][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 15:17:33.033][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 15:17:33.033][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 15:17:33.033][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 15:17:33.033][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:17:34.034][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 15:17:34.034][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 15:17:34.034][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 15:17:34.034][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:34.034][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 15:17:34.034][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 15:17:34.034][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@335a9de3]]
+[2022-07-14 15:17:34.034][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 15:17:34.034][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.376 seconds (JVM running for 3.862)
+[2022-07-14 15:17:37.037][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 15:17:37.037][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 15:17:37.037][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 1 ms
+[2022-07-14 15:17:42.042][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:17:42.042][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:17:42.042][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:17:43.043][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 15:17:43.043][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:17:43.043][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 15:17:43.043][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 15:17:43.043][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 15:17:43.043][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 15:17:44.044][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 15:17:44.044][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:17:44.044][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 15:17:45.045][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 15:17:45.045][WARN ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][61]Unable to start LiveReload server
+[2022-07-14 15:17:45.045][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:45.045][WARN ][org.springframework.context.support.AbstractApplicationContext][restartedMain][591]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[2022-07-14 15:17:45.045][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:17:45.045][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 15:17:45.045][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 15:17:45.045][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Pausing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:45.045][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Stopping service [Tomcat]
+[2022-07-14 15:17:45.045][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Stopping ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:45.045][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Destroying ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:17:45.045][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][restartedMain][136]
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-07-14 15:17:45.045][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][restartedMain][40]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[2022-07-14 15:18:34.034][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 1 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 15:18:54.054][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 15:18:54.054][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@335a9de3]]
+[2022-07-14 15:18:54.054][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 15:18:54.054][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:18:54.054][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 15:18:54.054][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 15:18:56.056][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 99343 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 15:18:56.056][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 15:18:56.056][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 15:18:56.056][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 15:18:56.056][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 15:18:57.057][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 15:18:57.057][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 36 ms. Found 10 JPA repository interfaces.
+[2022-07-14 15:18:57.057][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 15:18:57.057][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:18:57.057][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 15:18:57.057][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 15:18:57.057][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 15:18:57.057][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 673 ms
+[2022-07-14 15:18:57.057][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 15:18:57.057][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 15:18:57.057][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:18:57.057][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 15:18:57.057][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 15:18:58.058][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 15:18:58.058][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 15:18:58.058][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 15:18:58.058][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:18:59.059][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 15:18:59.059][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 15:18:59.059][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 15:18:59.059][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:18:59.059][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 15:18:59.059][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 15:18:59.059][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3773cae5]]
+[2022-07-14 15:18:59.059][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 15:18:59.059][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.085 seconds (JVM running for 3.464)
+[2022-07-14 15:19:04.004][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 15:19:04.004][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 15:19:04.004][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 5 ms
+[2022-07-14 15:19:59.059][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 15, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 15:23:20.020][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 15:23:20.020][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3773cae5]]
+[2022-07-14 15:23:20.020][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 15:23:21.021][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:23:21.021][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 15:23:21.021][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 281 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 15:23:24.024][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 15:23:24.024][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 30 ms. Found 10 JPA repository interfaces.
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 15:23:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:23:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 15:23:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 15:23:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 15:23:24.024][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 649 ms
+[2022-07-14 15:23:24.024][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 15:23:24.024][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 15:23:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 15:23:24.024][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 15:23:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:23:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:23:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 15:23:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 15:23:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 15:23:25.025][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 15:23:25.025][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 15:23:25.025][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 15:23:25.025][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 15:23:25.025][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 15:23:25.025][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 15:23:26.026][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 15:23:27.027][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 15:23:27.027][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 15:23:27.027][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 15:23:27.027][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 15:23:27.027][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 15:23:27.027][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3e01e652]]
+[2022-07-14 15:23:27.027][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 15:23:27.027][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.385 seconds (JVM running for 3.79)
+[2022-07-14 15:23:31.031][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 15:23:31.031][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 15:23:31.031][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 17 ms
+[2022-07-14 15:24:26.026][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 15:32:38.038][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-6][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-07-14T00:24:54Z. Current time: 2022-07-14T15:32:38Z, a difference of 54464852 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.socical.network.common.utils.JwtUtils.extractAllClaims(JwtUtils.java:29)
+	at com.socical.network.common.utils.JwtUtils.extractClaim(JwtUtils.java:25)
+	at com.socical.network.common.utils.JwtUtils.extractUsername(JwtUtils.java:17)
+	at com.socical.network.common.filters.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-07-14 15:54:26.026][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[4 current WS(4)-HttpStream(0)-HttpPoll(0), 5 total, 0 closed abnormally (0 connect failure, 0 send limit, 1 transport error)], stompSubProtocol[processed CONNECT(5)-CONNECTED(5)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 57], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 16], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+[2022-07-14 16:19:21.021][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-14 16:19:21.021][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3e01e652]]
+[2022-07-14 16:19:21.021][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-14 16:19:21.021][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 16:19:21.021][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-14 16:19:21.021][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-14 16:19:24.024][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 10308 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-14 16:19:24.024][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-14 16:19:24.024][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-14 16:19:24.024][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-14 16:19:24.024][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-14 16:19:25.025][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-14 16:19:25.025][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 36 ms. Found 10 JPA repository interfaces.
+[2022-07-14 16:19:25.025][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-14 16:19:25.025][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-14 16:19:25.025][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-14 16:19:25.025][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-14 16:19:25.025][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-14 16:19:25.025][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 714 ms
+[2022-07-14 16:19:25.025][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-14 16:19:25.025][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-14 16:19:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-14 16:19:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-14 16:19:25.025][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 16:19:26.026][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 16:19:26.026][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-14 16:19:26.026][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-14 16:19:26.026][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-14 16:19:26.026][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-14 16:19:26.026][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-14 16:19:26.026][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-14 16:19:26.026][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-14 16:19:27.027][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-14 16:19:27.027][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-14 16:19:28.028][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-14 16:19:29.029][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-14 16:19:29.029][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-14 16:19:29.029][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-14 16:19:29.029][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-14 16:19:29.029][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-14 16:19:29.029][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@10db85a9]]
+[2022-07-14 16:19:29.029][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-14 16:19:29.029][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 4.732 seconds (JVM running for 5.384)
+[2022-07-14 16:19:31.031][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-14 16:19:31.031][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-14 16:19:31.031][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 2 ms
+[2022-07-14 16:20:28.028][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[4 current WS(4)-HttpStream(0)-HttpPoll(0), 4 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(4)-CONNECTED(4)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 24], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-14 16:50:28.028][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 12 total, 0 closed abnormally (0 connect failure, 0 send limit, 11 transport error)], stompSubProtocol[processed CONNECT(12)-CONNECTED(12)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 174], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 60], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+[2022-07-14 17:20:28.028][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-2][128]WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 22 total, 0 closed abnormally (0 connect failure, 0 send limit, 21 transport error)], stompSubProtocol[processed CONNECT(22)-CONNECTED(22)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 264], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 80], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]

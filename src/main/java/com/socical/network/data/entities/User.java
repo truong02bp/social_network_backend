@@ -57,7 +57,7 @@ public class User extends BaseEntity {
     @Column(name = "phone", unique = true)
     private String phone;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "role_user", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     @Schema(hidden = true)
     private List<Role> roles;

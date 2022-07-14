@@ -27,4 +27,5 @@ public class Message extends BaseEntity {
     @JoinColumn(name = "message_id")
     private List<MessageInteraction> interactions;
 
+
 }
