@@ -9,4 +9,6 @@ import java.util.List;
 public interface MessageService {
     Message create(MessageDto messageDto);
     List<Message> getMessage(Long conversationId, Pageable pageable);
+    List<Message> updateSeen(Long messengerId);
+    Message updateReaction(MessageDto messageDto);
 }

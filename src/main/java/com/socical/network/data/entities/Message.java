@@ -1,6 +1,9 @@
 package com.socical.network.data.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -10,6 +13,9 @@ import java.util.List;
 @Table(name = "messages")
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Message extends BaseEntity {
 
     @Column(name = "content")

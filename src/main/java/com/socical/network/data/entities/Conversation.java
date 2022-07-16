@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "conversations")
@@ -31,4 +32,5 @@ public class Conversation extends BaseEntity {
     @JoinColumn(name = "conversation_id")
     private List<Messenger> messengers;
 
+    private Long lastMessageId;
 }

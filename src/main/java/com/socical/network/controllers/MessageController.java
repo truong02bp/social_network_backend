@@ -23,6 +23,13 @@ class MessageController {
     private final MessageService messageService;
     private final SimpMessagingTemplate template;
 
+
+    @GetMapping("/api/v1/message")
+    public ResponseEntity<List<Message>> getMessage(@RequestParam("conversationId") Long conversationId,
+                                                    Pageable pageable) {
+        return ResponseEntity.ok(messageService.getMessage(conversationId, pageable));
+    }
+
     @MessageMapping("/message/send")
     public Message sendMessage(@Payload MessageDto messageDto) {
         Message message = messageService.create(messageDto);
@@ -30,9 +37,17 @@ class MessageController {
         return message;
     }
 
-    @GetMapping("/api/v1/message")
-    public ResponseEntity<List<Message>> getMessage(@RequestParam("conversationId") Long conversationId,
-                                                    Pageable pageable) {
-        return ResponseEntity.ok(messageService.getMessage(conversationId, pageable));
+    @MessageMapping("/message/update/seen")
+    public List<Message> updateSeen(@Payload MessageDto messageDto) {
+        List<Message> messages = messageService.updateSeen(messageDto.getMessengerId());
+        this.template.convertAndSend("/topic/update/seen", messages);
+        return messages;
+    }
+
+    @MessageMapping("/message/update/reaction")
+    public Message updateReaction(@Payload MessageDto messageDto) {
+        Message message = messageService.updateReaction(messageDto);
+        this.template.convertAndSend("/topic/update/reaction", message);
+        return message;
     }
 }
