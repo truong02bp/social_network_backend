@@ -1,0 +1,607 @@
+[2022-07-22 08:31:45.045][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 60036 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-22 08:31:45.045][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-22 08:31:46.046][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-22 08:31:46.046][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-22 08:31:46.046][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-22 08:31:46.046][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-22 08:31:46.046][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 26 ms. Found 11 JPA repository interfaces.
+[2022-07-22 08:31:46.046][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-22 08:31:46.046][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-22 08:31:46.046][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-22 08:31:46.046][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-22 08:31:46.046][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-22 08:31:46.046][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 633 ms
+[2022-07-22 08:31:46.046][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-22 08:31:46.046][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-22 08:31:46.046][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-22 08:31:46.046][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-22 08:31:46.046][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-22 08:31:47.047][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-22 08:31:47.047][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-22 08:31:47.047][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-22 08:31:47.047][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-22 08:31:47.047][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-22 08:31:47.047][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-22 08:31:47.047][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-22 08:31:47.047][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-22 08:31:48.048][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-22 08:31:48.048][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-22 08:31:48.048][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-22 08:31:49.049][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-22 08:31:49.049][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.config.AbstractConfig][restartedMain][376]AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][119]Kafka version: 3.0.0
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][120]Kafka commitId: 8cb0a5e9d3441962
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][121]Kafka startTimeMs: 1658453509168
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser][kafka-admin-client-thread | adminclient-1][83]App info kafka.admin.client for adminclient-1 unregistered
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.metrics.Metrics][kafka-admin-client-thread | adminclient-1][659]Metrics scheduler closed
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.metrics.Metrics][kafka-admin-client-thread | adminclient-1][663]Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.metrics.Metrics][kafka-admin-client-thread | adminclient-1][669]Metrics reporters closed
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.config.AbstractConfig][restartedMain][376]ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-social_network-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = social_network
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][119]Kafka version: 3.0.0
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][120]Kafka commitId: 8cb0a5e9d3441962
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][121]Kafka startTimeMs: 1658453509406
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.KafkaConsumer][restartedMain][966][Consumer clientId=consumer-social_network-1, groupId=social_network] Subscribed to topic(s): social_network_message
+[2022-07-22 08:31:49.049][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-22 08:31:49.049][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-22 08:31:49.049][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-22 08:31:49.049][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@373b9419]]
+[2022-07-22 08:31:49.049][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-22 08:31:49.049][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 3.616 seconds (JVM running for 4.246)
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.Metadata][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][287][Consumer clientId=consumer-social_network-1, groupId=social_network] Cluster ID: hUq3TUruRmWBx5UOVTa1zQ
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][849][Consumer clientId=consumer-social_network-1, groupId=social_network] Discovered group coordinator 127.0.0.1:9092 (id: 2147483646 rack: null)
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][535][Consumer clientId=consumer-social_network-1, groupId=social_network] (Re-)joining group
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][988][Consumer clientId=consumer-social_network-1, groupId=social_network] Request joining group due to: need to re-join with the given member-id
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][535][Consumer clientId=consumer-social_network-1, groupId=social_network] (Re-)joining group
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][591][Consumer clientId=consumer-social_network-1, groupId=social_network] Successfully joined group with generation Generation{generationId=70, memberId='consumer-social_network-1-8ed46c5b-f154-4137-bd6a-a6d56ae5907c', protocol='range'}
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][626][Consumer clientId=consumer-social_network-1, groupId=social_network] Finished assignment for group at generation 70: {consumer-social_network-1-8ed46c5b-f154-4137-bd6a-a6d56ae5907c=Assignment(partitions=[social_network_message-0, social_network_message-1, social_network_message-2])}
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][757][Consumer clientId=consumer-social_network-1, groupId=social_network] Successfully synced group in generation Generation{generationId=70, memberId='consumer-social_network-1-8ed46c5b-f154-4137-bd6a-a6d56ae5907c', protocol='range'}
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][276][Consumer clientId=consumer-social_network-1, groupId=social_network] Notifying assignor about the new Assignment(partitions=[social_network_message-0, social_network_message-1, social_network_message-2])
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][288][Consumer clientId=consumer-social_network-1, groupId=social_network] Adding newly assigned partitions: social_network_message-1, social_network_message-0, social_network_message-2
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][818][Consumer clientId=consumer-social_network-1, groupId=social_network] Setting offset for partition social_network_message-1 to the committed offset FetchPosition{offset=37, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 1 rack: null)], epoch=0}}
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][818][Consumer clientId=consumer-social_network-1, groupId=social_network] Setting offset for partition social_network_message-0 to the committed offset FetchPosition{offset=39, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 1 rack: null)], epoch=0}}
+[2022-07-22 08:31:49.049][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][818][Consumer clientId=consumer-social_network-1, groupId=social_network] Setting offset for partition social_network_message-2 to the committed offset FetchPosition{offset=35, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 1 rack: null)], epoch=0}}
+[2022-07-22 08:31:49.049][INFO ][org.springframework.core.log.LogAccessor][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][292]social_network: partitions assigned: [social_network_message-1, social_network_message-0, social_network_message-2]
+[2022-07-22 08:31:58.058][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-22 08:31:58.058][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-22 08:31:58.058][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 2 ms
+[2022-07-22 08:32:48.048][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 78], outboundChannel[pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-22 09:02:48.048][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 78], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+[2022-07-22 09:27:31.031][INFO ][org.apache.kafka.common.config.AbstractConfig][clientInboundChannel-35][376]ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+[2022-07-22 09:27:31.031][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][clientInboundChannel-35][119]Kafka version: 3.0.0
+[2022-07-22 09:27:31.031][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][clientInboundChannel-35][120]Kafka commitId: 8cb0a5e9d3441962
+[2022-07-22 09:27:31.031][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][clientInboundChannel-35][121]Kafka startTimeMs: 1658456851941
+[2022-07-22 09:27:32.032][INFO ][org.apache.kafka.clients.Metadata][kafka-producer-network-thread | producer-1][287][Producer clientId=producer-1] Cluster ID: hUq3TUruRmWBx5UOVTa1zQ
+[2022-07-22 09:30:17.017][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-22 09:30:17.017][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@373b9419]]
+[2022-07-22 09:30:17.017][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][307][Consumer clientId=consumer-social_network-1, groupId=social_network] Revoke previously assigned partitions social_network_message-1, social_network_message-0, social_network_message-2
+[2022-07-22 09:30:17.017][INFO ][org.springframework.core.log.LogAccessor][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][292]social_network: partitions revoked: [social_network_message-1, social_network_message-0, social_network_message-2]
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][1048][Consumer clientId=consumer-social_network-1, groupId=social_network] Member consumer-social_network-1-8ed46c5b-f154-4137-bd6a-a6d56ae5907c sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][966][Consumer clientId=consumer-social_network-1, groupId=social_network] Resetting generation due to: consumer pro-actively leaving the group
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][988][Consumer clientId=consumer-social_network-1, groupId=social_network] Request joining group due to: consumer pro-actively leaving the group
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.KafkaConsumer][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][1075][Consumer clientId=consumer-social_network-1, groupId=social_network] Unsubscribed all topics or patterns and assigned partitions
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][966][Consumer clientId=consumer-social_network-1, groupId=social_network] Resetting generation due to: consumer pro-actively leaving the group
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][988][Consumer clientId=consumer-social_network-1, groupId=social_network] Request joining group due to: consumer pro-actively leaving the group
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.metrics.Metrics][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][659]Metrics scheduler closed
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.metrics.Metrics][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][663]Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.metrics.Metrics][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][669]Metrics reporters closed
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.utils.AppInfoParser][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][83]App info kafka.consumer for consumer-social_network-1 unregistered
+[2022-07-22 09:30:17.017][INFO ][org.springframework.core.log.LogAccessor][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][292]social_network: Consumer stopped
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.clients.producer.KafkaProducer][SpringApplicationShutdownHook][1208][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.metrics.Metrics][SpringApplicationShutdownHook][659]Metrics scheduler closed
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.metrics.Metrics][SpringApplicationShutdownHook][663]Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.metrics.Metrics][SpringApplicationShutdownHook][669]Metrics reporters closed
+[2022-07-22 09:30:17.017][INFO ][org.apache.kafka.common.utils.AppInfoParser][SpringApplicationShutdownHook][83]App info kafka.producer for producer-1 unregistered
+[2022-07-22 09:30:17.017][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-22 09:30:17.017][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-22 09:30:17.017][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.3 on MacBook-Air-cua-MacOS.local with PID 70885 (/Users/mac/Documents/software-development/social-network/social_network_backend/target/classes started by mac in /Users/mac/Documents/software-development/social-network/social_network_backend)
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/Users/mac/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-07-22 09:30:20.020][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][132]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-22 09:30:20.020][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][restartedMain][201]Finished Spring Data repository scanning in 27 ms. Found 11 JPA repository interfaces.
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][108]Tomcat initialized with port(s): 8080 (http)
+[2022-07-22 09:30:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-22 09:30:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting service [Tomcat]
+[2022-07-22 09:30:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-07-22 09:30:20.020][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Initializing Spring embedded WebApplicationContext
+[2022-07-22 09:30:20.020][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][restartedMain][290]Root WebApplicationContext: initialization completed in 658 ms
+[2022-07-22 09:30:21.021][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][110]HikariPool-1 - Starting...
+[2022-07-22 09:30:21.021][INFO ][com.zaxxer.hikari.HikariDataSource][restartedMain][123]HikariPool-1 - Start completed.
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Set default schema name to public
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Clearing database change log checksums
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully acquired change log lock
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Reading from public.databasechangelog
+[2022-07-22 09:30:21.021][INFO ][liquibase.logging.core.JavaLogger][restartedMain][26]Successfully released change log lock
+[2022-07-22 09:30:21.021][INFO ][org.hibernate.jpa.internal.util.LogHelper][restartedMain][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-22 09:30:21.021][INFO ][org.hibernate.Version][restartedMain][44]HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-07-22 09:30:21.021][INFO ][org.hibernate.annotations.common.reflection.java.JavaReflectionManager][restartedMain][56]HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-22 09:30:21.021][INFO ][org.hibernate.dialect.Dialect][restartedMain][175]HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-07-22 09:30:22.022][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][restartedMain][52]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-22 09:30:22.022][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][restartedMain][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-22 09:30:23.023][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][restartedMain][219]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-22 09:30:23.023][INFO ][org.springframework.security.web.DefaultSecurityFilterChain][restartedMain][52]Will not secure any request
+[2022-07-22 09:30:23.023][INFO ][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][restartedMain][58]LiveReload server is running on port 35729
+[2022-07-22 09:30:23.023][INFO ][org.apache.kafka.common.config.AbstractConfig][restartedMain][376]AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][119]Kafka version: 3.0.0
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][120]Kafka commitId: 8cb0a5e9d3441962
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][121]Kafka startTimeMs: 1658457024072
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser][kafka-admin-client-thread | adminclient-1][83]App info kafka.admin.client for adminclient-1 unregistered
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.metrics.Metrics][kafka-admin-client-thread | adminclient-1][659]Metrics scheduler closed
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.metrics.Metrics][kafka-admin-client-thread | adminclient-1][663]Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.metrics.Metrics][kafka-admin-client-thread | adminclient-1][669]Metrics reporters closed
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.config.AbstractConfig][restartedMain][376]ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-social_network-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = social_network
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][119]Kafka version: 3.0.0
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][120]Kafka commitId: 8cb0a5e9d3441962
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][restartedMain][121]Kafka startTimeMs: 1658457024866
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.clients.consumer.KafkaConsumer][restartedMain][966][Consumer clientId=consumer-social_network-1, groupId=social_network] Subscribed to topic(s): social_network_message
+[2022-07-22 09:30:24.024][INFO ][org.apache.juli.logging.DirectJDKLog][restartedMain][173]Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-22 09:30:24.024][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][restartedMain][220]Tomcat started on port(s): 8080 (http) with context path ''
+[2022-07-22 09:30:24.024][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Starting...
+[2022-07-22 09:30:24.024][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3e165e80]]
+[2022-07-22 09:30:24.024][INFO ][org.springframework.core.log.CompositeLog][restartedMain][137]Started.
+[2022-07-22 09:30:24.024][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][61]Started Application in 4.826 seconds (JVM running for 5.257)
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.clients.Metadata][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][287][Consumer clientId=consumer-social_network-1, groupId=social_network] Cluster ID: hUq3TUruRmWBx5UOVTa1zQ
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][849][Consumer clientId=consumer-social_network-1, groupId=social_network] Discovered group coordinator 127.0.0.1:9092 (id: 2147483646 rack: null)
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][535][Consumer clientId=consumer-social_network-1, groupId=social_network] (Re-)joining group
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][988][Consumer clientId=consumer-social_network-1, groupId=social_network] Request joining group due to: need to re-join with the given member-id
+[2022-07-22 09:30:24.024][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][535][Consumer clientId=consumer-social_network-1, groupId=social_network] (Re-)joining group
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][591][Consumer clientId=consumer-social_network-1, groupId=social_network] Successfully joined group with generation Generation{generationId=72, memberId='consumer-social_network-1-5cbbbc85-1529-42b7-b3cf-5ba05d6613ba', protocol='range'}
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][626][Consumer clientId=consumer-social_network-1, groupId=social_network] Finished assignment for group at generation 72: {consumer-social_network-1-5cbbbc85-1529-42b7-b3cf-5ba05d6613ba=Assignment(partitions=[social_network_message-0, social_network_message-1, social_network_message-2])}
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][757][Consumer clientId=consumer-social_network-1, groupId=social_network] Successfully synced group in generation Generation{generationId=72, memberId='consumer-social_network-1-5cbbbc85-1529-42b7-b3cf-5ba05d6613ba', protocol='range'}
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][276][Consumer clientId=consumer-social_network-1, groupId=social_network] Notifying assignor about the new Assignment(partitions=[social_network_message-0, social_network_message-1, social_network_message-2])
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][288][Consumer clientId=consumer-social_network-1, groupId=social_network] Adding newly assigned partitions: social_network_message-1, social_network_message-0, social_network_message-2
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][818][Consumer clientId=consumer-social_network-1, groupId=social_network] Setting offset for partition social_network_message-1 to the committed offset FetchPosition{offset=38, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 1 rack: null)], epoch=0}}
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][818][Consumer clientId=consumer-social_network-1, groupId=social_network] Setting offset for partition social_network_message-0 to the committed offset FetchPosition{offset=39, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 1 rack: null)], epoch=0}}
+[2022-07-22 09:30:25.025][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][818][Consumer clientId=consumer-social_network-1, groupId=social_network] Setting offset for partition social_network_message-2 to the committed offset FetchPosition{offset=35, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 1 rack: null)], epoch=0}}
+[2022-07-22 09:30:25.025][INFO ][org.springframework.core.log.LogAccessor][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][292]social_network: partitions assigned: [social_network_message-1, social_network_message-0, social_network_message-2]
+[2022-07-22 09:30:27.027][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-22 09:30:27.027][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][525]Initializing Servlet 'dispatcherServlet'
+[2022-07-22 09:30:27.027][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][547]Completed initialization in 4 ms
+[2022-07-22 09:30:38.038][INFO ][org.apache.kafka.common.config.AbstractConfig][clientInboundChannel-2][376]ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+[2022-07-22 09:30:38.038][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][clientInboundChannel-2][119]Kafka version: 3.0.0
+[2022-07-22 09:30:38.038][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][clientInboundChannel-2][120]Kafka commitId: 8cb0a5e9d3441962
+[2022-07-22 09:30:38.038][INFO ][org.apache.kafka.common.utils.AppInfoParser$AppInfo][clientInboundChannel-2][121]Kafka startTimeMs: 1658457038273
+[2022-07-22 09:30:38.038][INFO ][org.apache.kafka.clients.Metadata][kafka-producer-network-thread | producer-1][287][Producer clientId=producer-1] Cluster ID: hUq3TUruRmWBx5UOVTa1zQ
+[2022-07-22 09:31:23.023][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[3 current WS(3)-HttpStream(0)-HttpPoll(0), 3 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(3)-CONNECTED(3)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 39], outboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2022-07-22 10:01:23.023][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[7 current WS(7)-HttpStream(0)-HttpPoll(0), 25 total, 0 closed abnormally (0 connect failure, 0 send limit, 18 transport error)], stompSubProtocol[processed CONNECT(25)-CONNECTED(25)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 729], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 214], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+[2022-07-22 10:31:23.023][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-2][128]WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 32 total, 0 closed abnormally (0 connect failure, 0 send limit, 32 transport error)], stompSubProtocol[processed CONNECT(32)-CONNECTED(32)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1002], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 240], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+[2022-07-22 11:01:23.023][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-1][128]WebSocketSession[6 current WS(6)-HttpStream(0)-HttpPoll(0), 42 total, 0 closed abnormally (0 connect failure, 0 send limit, 36 transport error)], stompSubProtocol[processed CONNECT(42)-CONNECTED(42)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1164], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 265], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 3]
+[2022-07-22 11:31:23.023][INFO ][org.springframework.web.socket.config.WebSocketMessageBrokerStats][MessageBroker-3][128]WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 46 total, 0 closed abnormally (0 connect failure, 0 send limit, 44 transport error)], stompSubProtocol[processed CONNECT(46)-CONNECTED(46)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1239], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 287], sockJsScheduler[pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 4]
+[2022-07-22 11:41:50.050][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopping...
+[2022-07-22 11:41:50.050][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3e165e80]]
+[2022-07-22 11:41:50.050][INFO ][org.springframework.core.log.CompositeLog][SpringApplicationShutdownHook][137]Stopped.
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][307][Consumer clientId=consumer-social_network-1, groupId=social_network] Revoke previously assigned partitions social_network_message-1, social_network_message-0, social_network_message-2
+[2022-07-22 11:41:50.050][INFO ][org.springframework.core.log.LogAccessor][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][292]social_network: partitions revoked: [social_network_message-1, social_network_message-0, social_network_message-2]
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][1048][Consumer clientId=consumer-social_network-1, groupId=social_network] Member consumer-social_network-1-5cbbbc85-1529-42b7-b3cf-5ba05d6613ba sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][966][Consumer clientId=consumer-social_network-1, groupId=social_network] Resetting generation due to: consumer pro-actively leaving the group
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][988][Consumer clientId=consumer-social_network-1, groupId=social_network] Request joining group due to: consumer pro-actively leaving the group
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.KafkaConsumer][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][1075][Consumer clientId=consumer-social_network-1, groupId=social_network] Unsubscribed all topics or patterns and assigned partitions
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][966][Consumer clientId=consumer-social_network-1, groupId=social_network] Resetting generation due to: consumer pro-actively leaving the group
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][988][Consumer clientId=consumer-social_network-1, groupId=social_network] Request joining group due to: consumer pro-actively leaving the group
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.metrics.Metrics][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][659]Metrics scheduler closed
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.metrics.Metrics][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][663]Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.metrics.Metrics][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][669]Metrics reporters closed
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.utils.AppInfoParser][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][83]App info kafka.consumer for consumer-social_network-1 unregistered
+[2022-07-22 11:41:50.050][INFO ][org.springframework.core.log.LogAccessor][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][292]social_network: Consumer stopped
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.clients.producer.KafkaProducer][SpringApplicationShutdownHook][1208][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.metrics.Metrics][SpringApplicationShutdownHook][659]Metrics scheduler closed
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.metrics.Metrics][SpringApplicationShutdownHook][663]Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.metrics.Metrics][SpringApplicationShutdownHook][669]Metrics reporters closed
+[2022-07-22 11:41:50.050][INFO ][org.apache.kafka.common.utils.AppInfoParser][SpringApplicationShutdownHook][83]App info kafka.producer for producer-1 unregistered
+[2022-07-22 11:41:50.050][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][651]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-22 11:41:50.050][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2022-07-22 11:41:50.050][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.

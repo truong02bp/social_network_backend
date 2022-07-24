@@ -46,6 +46,7 @@ class MessageController {
 
     @MessageMapping("/message/update/reaction")
     public Message updateReaction(@Payload MessageDto messageDto) {
+        System.out.println(messageDto.getReaction());
         Message message = messageService.updateReaction(messageDto);
         this.template.convertAndSend("/topic/update/reaction", message);
         return message;

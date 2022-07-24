@@ -85,7 +85,10 @@ public class ConversationServiceImpl implements ConversationService {
                     guests.add(messenger);
                 }
             });
-//            dto.setLastMessage(messageRepository.findLastMessageConversation(conversation.getId()));
+            Long lastMessageId = conversation.getLastMessageId();
+            if (lastMessageId != null) {
+                dto.setLastMessage(messageRepository.findById(lastMessageId).orElse(null));
+            }
             dto.setGuests(guests);
             return dto;
         }).collect(Collectors.toList());

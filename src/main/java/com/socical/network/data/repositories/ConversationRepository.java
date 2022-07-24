@@ -15,6 +15,6 @@ public interface ConversationRepository extends JpaRepository<Conversation, Long
     List<Conversation> findByUserId(@Param("userId") Long userId, Pageable pageable);
 
     @Modifying
-    @Query(value = "UPDATE Conversation SET lastMessageId = ?2 WHERE id = ?1")
+    @Query(value = "UPDATE Conversation SET lastMessageId = ?2, lastModifiedDate = CURRENT_TIMESTAMP WHERE id = ?1")
     int rowUpdate(Long conversationId, Long messageId);
 }
